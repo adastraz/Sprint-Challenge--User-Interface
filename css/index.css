@@ -192,8 +192,49 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
+/*for about page html*/
+.abt{
+    margin: 5% 0;
+    padding-bottom:5%;
+    border-bottom:2px dotted gray;
+}
+.abtimg{
+    margin:5% 0 0 0;
+}
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.flexhme1{
+    display: flex;
+    justify-content:space-between;
+    width: 15%;
+    flex-direction:row;
+    margin: 0 0 7% 0;
+}
+.flexhme1 div{
+    margin: 15%;
+    border-bottom:dotted 2px gray;
+}
+.flexhme2 div{
+    margin: 15%;
+    border-bottom:dotted 2px gray;
+}
+.button{
+	
+	width:135px;
+	height: 40px;
+	border: 2px black solid;
+    color:black; 
+    border-radius:10px;
+    padding:1.5%;
+    margin: 5% 0;
+    text-align:center;
+}
+.flexhme2{
+    display: flex;
+    justify-content:space-between;
+    width: 15%;
+    flex-direction:row;
+    margin: 0 0 7% 0;
 }
