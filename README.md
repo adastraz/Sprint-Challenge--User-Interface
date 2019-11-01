@@ -38,11 +38,11 @@ Semantic HTML is important to utilize so that when people are searching things t
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-A block takes up only the space that it needs, while inline display takes up the whole line. Some examples of block displays are images, and spans. Inline blocks include paragraphs, and headers.
+A block takes up only the space that it needs /is given, while inline display takes up the whole line. Some examples of block displays are images, and spans. Inline blocks include paragraphs, and headers. You can put two blocks on the same line, but two inline displays cannot go on the same line with display:inline. This also means that inline elements cannot have a height as they take up the whole line, and that's it. 
 
 3. What are the 4 areas of the box model?
 
-Margin, border, padding, content
+Margin, border, padding, content from outter to inner.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
