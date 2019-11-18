@@ -25,8 +25,31 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, 
+.container{
+    box-sizing:border-box;
+    margin:5% 0 0 0;
+}
+.lambda{
+    width:20%;
+    margin:0;
+}
+section {
 	display: block;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.top a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    margin:3% 0 0 0;
+}
+.styleimg{
+    margin:5% 0 0 0;
 }
 body {
 	line-height: 1;
@@ -75,7 +98,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 5% 0;
     border-bottom: 1px dashed black;
 }
 
@@ -111,7 +134,37 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/*lol all these boxes*/
+#box1{
+    background:teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -139,8 +192,49 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
+/*for about page html*/
+.abt{
+    margin: 5% 0;
+    padding-bottom:5%;
+    border-bottom:2px dotted gray;
+}
+.abtimg{
+    margin:5% 0 0 0;
+}
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.flexhme1{
+    display: flex;
+    justify-content:space-between;
+    width: 15%;
+    flex-direction:row;
+    margin: 0 0 7% 0;
+}
+.flexhme1 div{
+    margin: 15%;
+    border-bottom:dotted 2px gray;
+}
+.flexhme2 div{
+    margin: 15%;
+    border-bottom:dotted 2px gray;
+}
+.button{
+	
+	width:135px;
+	height: 40px;
+	border: 2px black solid;
+    color:black; 
+    border-radius:10px;
+    padding:1.5%;
+    margin: 5% 0;
+    text-align:center;
+}
+.flexhme2{
+    display: flex;
+    justify-content:space-between;
+    width: 15%;
+    flex-direction:row;
+    margin: 0 0 7% 0;
 }
