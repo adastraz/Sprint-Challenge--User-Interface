@@ -47,6 +47,12 @@ section {
     color:black;
     font-weight:bold;
     margin:3% 0 0 0;
+} 
+.top a:hover{
+    background:lime;
+    width: 15%;
+    text-align:center;
+    font-size:25px;
 }
 .styleimg{
     margin:5% 0 0 0;
@@ -123,7 +129,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -164,6 +169,8 @@ p {
 }
 #box10{
     background:dodgerblue;
+}
+
 }
 .bottom-content {
     display: flex;
@@ -230,6 +237,10 @@ footer nav a {
     padding:1.5%;
     margin: 5% 0;
     text-align:center;
+}
+footer nav a:hover{
+    color:gray;
+    font-size:20px;
 }
 .flexhme2{
     display: flex;
